@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Navbar */
+
+.top {
+  position: fixed;
+}
+
+.myNavbar{
+  margin-bottom: 50px;
+  box-shadow: 0.1px 1px 4px rgb(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.logo-btn {
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.right {
+  display: inline;
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-el {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-el:hover {
+  background-color: rgba(243, 243, 243, 0.979);
+  box-shadow: 1px 1px 7px rgb(241, 238, 238);
+}
+
+
+/* header */
+
+.head {
+  margin-left: 100px;
+  margin-top: 300px;
+  margin-bottom: 200px;
+}
+
+.main-heading {
+  display: inline-block;
+  font-size: 85px;
+  margin-right: 50px;
+}
+
+.main-heading span {
+  display: block;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.description span {
+  display: block;
+}
+
+/* bubble 
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  perspective: 1200px;
+  perspective-origin: 50% 50%;
+}
+
+.bubble {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  background-color: gray;
+}
+
+*/
