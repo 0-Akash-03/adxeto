@@ -34,10 +34,6 @@
   object-fit: cover;
 }
 
-nav {
-  min-width: 15rem;
-}
-
 .flex-nav-link {
   list-style: none;
   margin: 0;
@@ -61,7 +57,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: var(--color-gray-600)
+  color: var(--color-gray-600);
 }
 
 .book-a-call-btn {
@@ -101,7 +97,81 @@ nav {
   background-color: var(--color-gray-600);
 }
 
+/* hamburger aside section */
 
+#side-drawer {
+  display: none;
+
+  background-color: var(--color-gray-100);
+  height: 23rem;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 102;
+  box-shadow: 1px 1px 7px rgba(107, 107, 219, 0.3);
+}
+
+#side-drawer:target {
+  display: block;
+}
+
+.aside-nav-size-background {
+  display: grid;
+  align-items: center;
+
+  width: 100%;
+  height: 4rem;
+  padding: 0 1rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-logo-hamburger {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hr-line {
+  padding: 0.7px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.aside-flex-nav-link {
+  height: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 1.5rem;
+
+  list-style: none;
+
+  padding: 2rem;
+  margin: 0;
+}
+
+.aside-nav-link {
+  text-decoration: none;
+  color: var(--color-gray-600);
+
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.aside-book-call-div {
+  text-align: center;
+}
+
+aside .book-a-call-btn {
+  color: var(--color-gray-100);
+}
+
+/* Responsive design */
 
 @media (max-width: 50rem) {
   .nav-size-background {
@@ -125,10 +195,8 @@ nav {
     padding-top: 0.55rem;
     object-fit: cover;
   }
-}
 
-@media (max-width: 31rem) {
-  .hamburger-link {
-    display: flex;
+  aside nav {
+    display: block;
   }
 }
