@@ -1,0 +1,23 @@
+html {
+  --color-gray-100: rgb(251, 251, 251);
+  --color-gray-200: rgb(240, 240, 240);
+  --color-gray-600: rgb(81, 81, 95);
+  --color-gray-800: rgb(27, 43, 63);
+  --color-gray-900: rgb(37, 34, 34);
+
+  --color-main-100: rgb(187, 199, 229);
+  --color-main-400: rgb(92, 138, 255);
+  --color-main-500: rgb(49, 107, 255);
+
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-gray-200);
+  font-size: 1rem;
+  font-family: inter, sans-serif;
+  line-height: 1.75rem;
+  margin: 0;
+  margin-bottom: 1000px;
+  padding-bottom: 2.5rem;
+}

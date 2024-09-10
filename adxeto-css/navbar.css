@@ -1,0 +1,134 @@
+.navbar-section {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav-size-background {
+  background-color: var(--color-gray-100);
+  border-radius: 20px;
+  max-width: 68rem;
+  width: 100%;
+  height: 3.75rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-top: 1.25rem;
+  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
+  box-sizing: border-box;
+}
+
+.flex-img-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.main-logo-img {
+  width: 10rem;
+  padding-top: 0.55rem;
+  object-fit: cover;
+}
+
+nav {
+  min-width: 15rem;
+}
+
+.flex-nav-link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-nav-link li {
+  margin: 0 0 0 2rem;
+}
+
+.nav-link {
+  font-size: 0.925rem;
+  color: var(--color-gray-800);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--color-gray-600)
+}
+
+.book-a-call-btn {
+  display: inline-block;
+  padding: 0.4rem;
+  background-color: var(--color-main-500);
+  color: var(--color-gray-100);
+  font-size: 0.925rem;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 0.3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.book-a-call-btn:hover {
+  background-color: var(--color-main-400);
+  color: var(--color-gray-100);
+}
+
+/* Hamburger Link */
+
+.hamburger-link {
+  width: 1rem;
+  height: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.2rem;
+}
+
+.hamburger-link span {
+  width: 100%;
+  height: 2.6px;
+  background-color: var(--color-gray-600);
+}
+
+
+
+@media (max-width: 50rem) {
+  .nav-size-background {
+    margin: 0;
+    border-radius: 0;
+    height: 4rem;
+    display: grid;
+    align-items: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hamburger-link {
+    display: flex;
+  }
+
+  .main-logo-img {
+    width: 8rem;
+    padding-top: 0.55rem;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 31rem) {
+  .hamburger-link {
+    display: flex;
+  }
+}
