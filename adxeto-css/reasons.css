@@ -1,0 +1,197 @@
+.curve-upside-img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: -1.8rem;
+  margin-top: 3rem;
+}
+
+.reasons-section {
+  background-color: var(--color-main-500);
+  height: 41rem;
+  text-align: center;
+}
+
+.reasons-section div {
+  display: inline-block;
+  margin-top: 5rem;
+
+  background-color: var(--color-gray-100);
+  max-width: 68rem;
+  width: 95%;
+  height: 31.25rem;
+  border-radius: 30px;
+}
+
+.reasons-section h2 {
+  font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
+  color: var(--color-gray-main-800);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.gradient-right-red {
+  background: linear-gradient(to right, #e96161, rgb(224, 199, 199));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.linebreak-reasons-heading {
+  display: block;
+}
+
+.flex-reasons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  padding: 0 3.5rem 3rem 3.5rem;
+}
+
+.flex-reasons-elements {
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  flex: 1;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.2);
+  height: 15rem;
+  padding: 0 2rem 2rem 1rem;
+  margin: 0 1.2rem 0 1.2rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.flex-reasons-elements:hover {
+  transform: scaleX(1.05);
+}
+
+.reasons-img {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-top: 2.5rem;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.reasons-el-description {
+  color: var(--color-gray-des-600);
+  font-weight: 500;
+}
+
+.curve-downside-img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: -1.8rem;
+}
+
+/* Responsive Design */
+
+@media (max-width: 62rem) {
+  .reasons-section h2 {
+    padding: 0 4rem;
+    font-size: 2rem;
+  }
+
+  .linebreak-reasons-heading {
+    display: inline;
+  }
+
+  .flex-reasons-elements {
+    padding: 0 0.5rem;
+  }
+
+  .reasons-img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .rand-des,
+  .notouch-p,
+  .traffic-covert {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 48rem) {
+  .reasons-section {
+    height: 65rem;
+  }
+
+  .reasons-section div {
+    height: 55rem;
+    width: 90%;
+  }
+
+  .flex-reasons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .reasons-img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 34rem) {
+  .reasons-section {
+    height: 65rem;
+  }
+
+  .reasons-section div {
+    height: 55rem;
+    width: 95%;
+  }
+
+  .reasons-section h2 {
+    padding: 0 1rem;
+    line-height: 2.5rem;
+  }
+
+  .flex-reasons {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 25.5rem) {
+  .reasons-section {
+    height: 68rem;
+  }
+
+  .reasons-section div {
+    height: 58rem;
+  }
+}
+
+@media (max-width: 23.3rem) {
+  .reasons-section {
+    height: 72rem;
+  }
+
+  .reasons-section div {
+    height: 62rem;
+  }
+}
+
+@media (max-width: 21rem) {
+  .reasons-section {
+    height: 75rem;
+  }
+
+  .reasons-section div {
+    height: 65rem;
+  }
+}
