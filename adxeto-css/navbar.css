@@ -143,6 +143,7 @@
 
 .aside-flex-nav-link {
   height: 10rem;
+  text-align: center;
 
   display: flex;
   flex-direction: column;
@@ -198,5 +199,11 @@ aside .book-a-call-btn {
 
   aside nav {
     display: block;
+  }
+}
+
+@media (max-width: 35rem) {
+  .aside-flex-nav-link {
+    text-align: left;
   }
 }
