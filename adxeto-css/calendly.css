@@ -1,0 +1,9 @@
+.calendly-heading {
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-gray-main-800);
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  line-height: 3.5rem;
+}
