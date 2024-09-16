@@ -1,8 +1,8 @@
 footer {
   max-width: 68rem;
   width: 100%;
-  padding: 1rem 0;
-  margin: 1rem auto;
+  padding: 1rem 0 0 0;
+  margin: 3rem auto 0 auto;
 }
 
 .flex-main-footer {
