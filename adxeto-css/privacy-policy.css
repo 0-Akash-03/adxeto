@@ -1,0 +1,22 @@
+.main-pv-pc {
+  max-width: 65.5rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 9.375rem;
+  margin-bottom: 6.25rem;
+  text-align: left;
+}
+
+main h1,
+main h2,
+main h3,
+main h4 {
+ color: var(--color-gray-main-800); 
+}
+
+main p,
+main li,
+main ul {
+  color: var(--color-gray-des-600);
+  font-weight: 500;
+}
