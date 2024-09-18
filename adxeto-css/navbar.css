@@ -114,9 +114,9 @@
   box-shadow: 1px 1px 7px rgba(107, 107, 219, 0.3);
 }
 
-#side-drawer:target {
+/* #side-drawer:target {
   display: block;
-}
+} */
 
 .aside-nav-size-background {
   display: grid;
