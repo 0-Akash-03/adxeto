@@ -34,6 +34,21 @@ ul, li {
   padding: 0;
 }
 
+
+.best-deal {
+  position: absolute;
+  background-color: rgb(255, 49, 49);
+  color: var(--color-gray-100);
+  padding: 0.4rem 0.7rem;
+  top: 0;
+  margin-top: -17.2px;
+  margin-left: 53px;
+
+  border-radius: 18px;
+  box-shadow: 1px 3px 7px rgba(107, 107, 219, 0.5);
+  z-index: 50;
+}
+
 .standard-pricing-box {
   background-color: var(--color-gray-100);
   border-radius: 16px;
@@ -42,6 +57,7 @@ ul, li {
   margin-top: 4.25rem;
   margin-bottom:2.25rem;
 
+  position: relative;
   transition: all 0.3s ease-in-out;
 }
 
@@ -144,6 +160,10 @@ ul, li {
   .pricing-heading {
     text-align: left;
   }
+
+  .best-deal {
+    margin-left: 15%;
+  }
 }
 
 @media (max-width: 25.7rem) {
@@ -157,5 +177,9 @@ ul, li {
 
   .service-detail-line p {
     text-align: left;
+  }
+
+  .best-deal {
+    margin-left: 12.5%;
   }
 }
