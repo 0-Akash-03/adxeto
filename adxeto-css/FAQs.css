@@ -1,0 +1,82 @@
+.faq-heading {
+  font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
+  font-size: 3rem;
+  color: var(--color-gray-main-800);
+  margin-top: 8rem;
+  margin-bottom: 3.5rem;
+}
+
+.question-answer-page-container {
+  max-width: 68rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.individual-question-answer-container {
+  background-color: var(--color-gray-100);
+  padding: 1rem 2rem;
+  text-align: left;
+
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
+
+  margin-bottom: 2rem;
+}
+
+.question-grid {
+  display: grid;
+  grid-template-columns: 1fr 5rem;
+}
+
+.question {
+  color: var(--color-gray-main-800);
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.arrow {
+  text-align: right;
+  margin-left: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  z-index: 15;
+}
+
+.arrow-d-js {
+  z-index: 10;
+}
+
+.answer {
+  color: var(--color-gray-des-600);
+  font-size: 0.94rem;
+  font-weight: 600;
+
+  padding-right: 5rem;
+  display: none;
+}
+
+.u-arrow-one,
+.u-arrow-two,
+.u-arrow-three,
+.u-arrow-four,
+.u-arrow-five,
+.u-arrow-six {
+  display: none;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 68rem) {
+  .question-answer-page-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 40rem) {
+  .answer {
+    padding-right: 2rem;
+  }
+}
