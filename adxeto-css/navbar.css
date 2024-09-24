@@ -159,6 +159,7 @@
 .aside-nav-link {
   text-decoration: none;
   color: var(--color-gray-des-600);
+  display: block;
 
   font-size: 0.875rem;
   font-weight: 600;
@@ -170,6 +171,7 @@
 
 aside .book-a-call-btn {
   color: var(--color-gray-100);
+  display: inline-block;
 }
 
 /* Responsive design */
