@@ -17,7 +17,7 @@ const upSideArrowSixEl = document.querySelector('.u-arrow-six');
 
 function openAnswerText(event) {
   const answerParagraph = event.target.parentElement.nextElementSibling;
-  answerParagraph.style.display = 'block'
+  answerParagraph.style.display = 'block';
   event.target.style.display = 'none';
   event.target.nextElementSibling.style.display = 'block';
 }
