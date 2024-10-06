@@ -79,8 +79,6 @@
 }
 
 @media (max-width: 33rem) {
-<<<<<<< HEAD
-=======
   .hero-section {
     margin-top: 10rem;
   }
@@ -89,7 +87,6 @@
     margin-bottom: 1.8rem;
   } 
 
->>>>>>> 2b399fb (0.3rem hero)
   .hero-width {
     width: 87%;
   }
