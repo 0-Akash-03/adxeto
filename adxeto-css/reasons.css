@@ -1,14 +1,9 @@
-.curve-upside-img {
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: -1.8rem;
-  margin-top: 3rem;
-}
-
 .reasons-section {
-  background-color: var(--color-main-500);
+  background-color: rgb(109, 149, 251);
   height: 41rem;
   text-align: center;
+
+  margin-top: 8.6rem;
 }
 
 .reasons-section div {
@@ -65,7 +60,7 @@
 
   flex: 1;
   border-radius: 6px;
-  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
   height: 15rem;
   padding: 0 2rem 2rem 1rem;
   margin: 0 1.2rem 0 1.2rem;
@@ -125,7 +120,7 @@
   }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 51rem) {
   .reasons-section {
     height: 65rem;
   }
@@ -146,7 +141,7 @@
   }
 }
 
-@media (max-width: 34rem) {
+@media (max-width: 37rem) {
   .reasons-section {
     height: 65rem;
   }
@@ -166,7 +161,7 @@
   }
 }
 
-@media (max-width: 25.5rem) {
+@media (max-width: 27rem) {
   .reasons-section {
     height: 68rem;
   }
@@ -176,7 +171,7 @@
   }
 }
 
-@media (max-width: 23.3rem) {
+@media (max-width: 25.7rem) {
   .reasons-section {
     height: 72rem;
   }
@@ -186,7 +181,7 @@
   }
 }
 
-@media (max-width: 21rem) {
+@media (max-width: 22.9rem) {
   .reasons-section {
     height: 75rem;
   }
