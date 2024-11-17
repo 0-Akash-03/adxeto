@@ -1,8 +1,73 @@
+#solution-container {
+  background-color: rgb(244, 205, 205);
+  position: relative;
+  padding-bottom: 8.5rem;
+}
+
+.note-box {
+  width: 25rem;
+  text-align: left;
+  margin-top: 10rem;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  color: var(--color-gray-des-600);
+  background-color: rgb(243, 246, 150);
+  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
+  border-radius: 7px;
+}
+
+.note-1 {
+  position: absolute;
+  left: 50%;
+  right: 30rem;
+  top: 10rem;
+}
+
+.arrow-note-1 {
+  position: absolute;
+  left: 30%;
+  top: 23rem;
+  opacity: calc(0.6);
+}
+
+.arrow-note-1 img, 
+.arrow-note-2 img,
+.arrow-note-3 img {
+  width: 10rem;
+}
+
+.note-2 {
+  position: absolute;
+  right: 70%;
+  top: 50rem;
+}
+
+.arrow-note-2 {
+  position: absolute;
+  left: 15rem;
+  top: 52rem;
+  opacity: calc(0.6);
+}
+
+.note-3 {
+  position: absolute;
+  left: 23%;
+  top: 80%;
+}
+
+.arrow-note-3 {
+  position: absolute;
+  right: 16rem;
+  top: 95%;
+  opacity: calc(0.6);
+}
+
 .solutions-section {
   max-width: 68rem;
   width: 93.9%;
   margin: 0 auto;
   padding: 4rem 2rem 4rem 2rem;
+  position: relative;
 }
 
 .solutions-header {
@@ -62,9 +127,20 @@
   transition: all 0.3s ease-in-out;
 }
 
+#second-container-15rem {
+  margin-top: 15rem;
+  padding-bottom: 2rem;
+}
+
+#third-container-30rem {
+  margin-top: 30rem;
+}
+
 .blue-solution-container {
+  margin-top: 15rem;
+
   background-color: var(--color-main-500);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 8px rgba(245, 243, 243, 0.3);
 }
 
 .flex-solution-container:hover {
@@ -137,7 +213,48 @@
 
 /* Responsive Design */
 
+@media (max-width: 83.75rem) {
+  .note-2 {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 73.75rem) {
+  .note-2 {
+    width: 16rem;
+    margin-top: 7rem;
+    right: 68%;
+  }
+
+  .arrow-note-2 img {
+    width: 8rem;
+  }
+}
+
 @media (max-width: 62rem) {
+  #solution-container {
+    padding-bottom: 0rem;
+  }
+
+  .note-box {
+    display: none;
+  }
+
+  .arrow-note-1,
+  .arrow-note-2,
+  .arrow-note-3 {
+    display: none;
+  }
+
+  #second-container-15rem {
+    margin-top: 0rem;
+    padding-bottom: 0;
+  }
+  
+  #third-container-30rem {
+    margin-top: 0rem;
+  }
+
   .solutions-section {
     width: 90%;
   }
