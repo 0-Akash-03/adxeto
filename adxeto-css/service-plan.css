@@ -1,0 +1,174 @@
+#conversion-plan {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: rgb(187, 199, 229);
+  text-align: left;
+}
+
+.plan-width {
+  max-width: 68rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.plan-main-heading {
+  text-align: center;
+
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
+  color: var(--color-gray-main-800);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.service-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6rem;
+}
+
+.automated-service-details,
+.payment-details,
+.optimization-service-details {
+  padding: 2rem;
+  border-radius: 8px;
+
+  background-color: var(--color-gray-100);
+  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
+}
+
+.automated-service-heading {
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
+  color: var(--color-gray-main-800);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.system-services {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.system-service-grid {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  column-gap: 0.5rem;
+}
+
+.service-checkmark {
+  margin-top: 3px;
+}
+
+.system-service-grid p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-gray-des-600);
+}
+
+/* pricing details */
+
+.payment-service-grid {
+  display: grid;
+  grid-template-rows: 2fr 0.8fr;
+  row-gap: 3rem;
+}
+
+.payment-headline {
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color-gray-main-800);
+}
+
+.otp-p {
+  font-family: "Be Vietname Pro", "Inter";
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-gray-des-600);
+}
+
+.otp-m {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-gray-main-800);
+}
+
+.otp-m span {
+  color: var(--color-gray-des-600);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.call-btn-plan {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.first-line-included,
+.second-line-included {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: var(--color-gray-des-600);
+
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.second-line-included {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+/* optimization service */
+
+.extra-optimization-pricing p {
+  color: var(--color-gray-des-600);
+  margin: 0.3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.extra-optimization-pricing p span {
+  font-weight: 700;
+  color: var(--color-gray-main-800);
+}
+
+.optimization-heading {
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
+  color: var(--color-gray-main-800);
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Responsive Design */
+
+@media (max-width: 68rem) {
+  .plan-width {
+    width: 70%;
+  }
+
+  .service-details-grid {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 36rem) {
+  .plan-width {
+    width: 90%;
+  }
+}
