@@ -1,0 +1,296 @@
+#benefits-section {
+  background-color: rgb(182, 214, 215);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+.benefits-width {
+  max-width: 68rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.benefits-heading {
+  text-align: center;
+
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
+  color: var(--color-gray-main-800);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.boxes-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+}
+
+.box-one-grid,
+.box-two-grid,
+.box-three-grid,
+.box-four-grid,
+.box-five-grid {
+  display: grid;
+  grid-template-columns: 22rem 1fr;
+
+  column-gap: 2rem;
+}
+
+.box-one-grid {
+  margin-left: 2rem;
+}
+
+.box-two-grid {
+  margin-left: 10rem;
+}
+
+.box-three-grid {
+  margin-left: 18rem;
+}
+
+.box-four-grid {
+  margin-left: 26rem;
+}
+
+.box-five-grid {
+  margin-left: 32rem;
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four,
+.box-five {
+  background-color: rgb(197, 182, 217);
+  height: 1.7rem;
+  width: 19rem;
+  padding: 1rem;
+  margin: 0;
+
+  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
+  border-radius: 6px;
+
+  margin: 0;
+  color: var(--color-gray-main-800);
+  font-size: 0.925rem;
+  font-weight: 600;
+}
+
+.box-des-one,
+.box-des-two,
+.box-des-three,
+.box-des-four,
+.box-des-five {
+  color: var(--color-gray-des-600);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.box-des-one {
+  margin-top: -1rem;
+  margin-left: 2rem;
+  width: 12rem;
+}
+
+.box-des-two {
+  margin-top: -1.7rem;
+  margin-left: 2rem;
+  width: 22rem;
+}
+
+.box-des-three {
+  margin-top: -1.9rem;
+  margin-left: 2rem;
+  width: 22rem;
+}
+
+.box-des-four {
+  margin-top: -0.8rem;
+  margin-left: -47rem;
+  width: 20rem;
+}
+
+.box-des-five {
+  margin-top: -0.2rem;
+  margin-left: -44rem;
+  width: 18rem;
+}
+
+.arrow-one {
+  position: absolute;
+  left: 22rem;
+  top: 7rem;
+}
+
+.arrow-two {
+  position: absolute;
+  left: 30rem;
+  top: 13rem;
+}
+
+.arrow-three {
+  position: absolute;
+  left: 38rem;
+  top: 19rem;
+}
+
+.arrow-four {
+  position: absolute;
+  left: 23rem;
+  top: 27rem;
+}
+
+.arrow-five {
+  position: absolute;
+  left: 29rem;
+  top: 34rem;
+}
+
+.arrow-one img,
+.arrow-two img,
+.arrow-three img,
+.arrow-four img,
+.arrow-five img,
+.arrow-four-responsive img,
+.arrow-five-responsive img {
+  width: 4rem;
+}
+
+.arrow-four-responsive,
+.arrow-five-responsive {
+  display: none;
+}
+
+/* Responsive design */
+
+@media (max-width: 68rem) {
+  .box-two-grid {
+    margin-left: 2rem;
+  }
+
+  .box-three-grid {
+    margin-left: 2rem;
+  }
+
+  .box-four-grid {
+    margin-left: 2rem;
+  }
+
+  .box-five-grid {
+    margin-left: 2rem;
+  }
+
+  .box-des-four {
+    margin-top: -1rem;
+    margin-left: 2rem;
+    width: 22rem;
+  }
+
+  .box-des-five {
+    margin-top: -1rem;
+    margin-left: 2rem;
+    width: 22rem;
+  }
+
+  .arrow-two {
+    left: 22rem;
+    top: 13rem;
+  }
+
+  .arrow-three {
+    left: 22rem;
+    top: 19rem;
+  }
+
+  .arrow-four,
+  .arrow-five {
+    display: none;
+  }
+
+  .arrow-four-responsive {
+    display: block;
+    position: absolute;
+    left: 22rem;
+    top: 25rem;
+  }
+
+  .arrow-five-responsive {
+    display: block;
+    position: absolute;
+    left: 22rem;
+    top: 31rem;
+  }
+}
+
+@media (max-width: 55rem) {
+  .benefits-width {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .arrow-one,
+  .arrow-two,
+  .arrow-three,
+  .arrow-four,
+  .arrow-five,
+  .arrow-four-responsive,
+  .arrow-five-responsive {
+    display: none;
+  }
+
+  .box-one-grid,
+  .box-two-grid,
+  .box-three-grid,
+  .box-four-grid,
+  .box-five-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.3rem;
+    margin-left: 0;
+  }
+
+  .box-des-one,
+  .box-des-two,
+  .box-des-three,
+  .box-des-four,
+  .box-des-five {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 30.6rem) {
+  .box-des-one,
+  .box-des-two,
+  .box-des-three,
+  .box-des-four,
+  .box-des-five {
+    width: 16rem;
+  }
+
+  .box-one,
+  .box-two,
+  .box-three,
+  .box-four,
+  .box-five {
+    width: 16rem;
+    height: 3.5rem;
+  }
+
+  .box-five {
+    margin-top: 2rem;
+  }
+
+  .box-four {
+    margin-top: 1rem;
+  }
+
+  .box-three {
+    margin-top: 1rem
+  }
+}
