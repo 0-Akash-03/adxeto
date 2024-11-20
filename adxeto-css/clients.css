@@ -1,215 +1,99 @@
-#clients {
-  margin-top: 4rem;
-}
-
-/* Client data indicators */
-.clients-heading {
-  font-size: 3rem;
-  color: var(--color-gray-main-800);
-  margin-top: 10rem;
-}
-
-.grid-data-indicator {
-  max-width: 65rem;
+.client {
+  max-width: 68rem;
   width: 100%;
-  margin: 5rem auto 2rem auto;
-  text-align: left;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1.1fr;
+  margin: 10rem auto 5rem auto;
 }
 
-.client-data-indicator {
-  font-size: 0.825rem;
-  font-weight: 500;
-  padding-left: 2rem;
-  color: var(--color-gray-des-600);
-}
-
-
-/* Client main data */
-.client-box {
-  background-color: var(--color-gray-100);
-  max-width: 64rem;
-  width: 100%;
-
-  margin: 0 auto;
-  padding: 1rem;
-
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
-}
-
-.main-data-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
-  text-align: center;
-
-  cursor: pointer;
-}
-
-.client-main-data {
-  color: var(--color-gray-main-800);
-  font-weight: 700;
-  font-size: 0.85rem;
-  padding: 0.2rem;
-}
-
-.company-name {
-  padding-left: 1.2rem;
-  text-align: left;
-}
-
-.total-retainer-months {
-  text-align: left;
-  padding-left: 6.5rem;
-}
-
-.revenue-dollar {
-  text-align: left;
-  padding-left: 1.5rem;
-}
-
-.satisfaction-rate {
-  text-align: right;
-  margin-right: 0.5rem;
-}
-
-.down-arrow {
-  text-align: right;
-  padding-right: 2rem;
-}
-
-.client-data-linebreak {
-  max-width: 98%;
-  margin: 0 auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-/* Client data details */
-.client-details-flex {
+.heading-clients-flex {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
 
+.head-section {
+  flex: 1;
+  text-align: left;
+  margin-top: 8rem;
   margin-left: 1.5rem;
-  text-align: left;
 }
 
-.client-campaign-description-grid {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+.small-line {
+  width: 5rem;
+  padding: 1px;
+  background-color: var(--color-gray-main-800);
 }
 
-.grid-client-des {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 4.5rem;
-}
-
-.grid-client-des p {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--color-gray-main-800);
-}
-
-.grid-client-des .des-detail {
-  font-size: 0.85rem;
-  font-weight: 500;
+.first-par,
+.third-par,
+.fourth-par {
   color: var(--color-gray-des-600);
-  text-align: left;
 }
 
-.img-client-campaign {
-  text-align: center;
+.first-par {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
-.client-campaign-img li img {
-  width: 20rem;
-  padding-right: 1.5rem;
+.big-line {
+  width: 9rem;
+  padding: 1px;
+  background-color: var(--color-gray-main-800);
 }
 
-.direct-iq {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.client-heading {
+  font-size: 2.4rem;
+  color: var(--color-gray-main-800);
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
 }
 
-
-/* Responsive */
-
-@media (max-width: 62rem) {
-  .clients-heading {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    margin-top: 6rem;
-  }
-
-  .grid-data-indicator {
-   display: grid;
-   width: 90%;
-  }
-
-  .client-data-indicator {
-    font-size: 0.7rem;
-  }
-
-  .client-box {
-    width: 80%;
-  }
-
-  .client-main-data {
-    font-size: 0.7rem;
-  }
-
-  .company-name,
-  .revenue-dollar,
-  .satisfaction-rate {
-    padding-left: 0;
-  }
-  
-  .total-retainer-months {
-    padding-left: 2rem;
-  }
-  
-  .down-arrow {
-    padding-right: 0;
-    text-align: center;
-  }
-
-  .client-details-flex {   
-    flex-direction: column;
-    row-gap: 2rem;
-  }
-
-  .client-campaign-description-grid {
-    grid-row-gap: 1.5rem;
-  }
-  .client-campaign-description-grid p {
-    margin: 0;
-  }
-
-  .client-campaign-img li img  {
-    padding: 0;
-  }
+.clients-section {
+  flex: 1;
 }
 
-@media (max-width: 26rem) {
-  .grid-data-indicator {
-    display: grid;
-    width: 70%;
-    margin: 0;
-  }
+.client-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 5rem;
+}
 
-  .grid-client-des {
-    grid-column-gap: 2rem;
-  }
+.bycycle-flex,
+.directiq-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
 
-  .client-data-indicator {
-    font-size: 0.5rem;
-  }
+  background-color: var(--color-gray-100);
+  padding: 2rem;
+  box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
+  transition: all 0.3s ease-in-out;
+}
 
-  .client-campaign-img li img {
-    width: 95%;
-  }
+.bycycle-flex:hover,
+.directiq-flex:hover {
+  transform: scaleX(1.05);
+}
+
+.logo-name-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 4rem;
+  object-fit: cover;
+}
+
+.company-name {
+  color: var(--color-gray-main-800);
+  font-size: 1.4rem;
+  font-family: "Be Vietnam Pro", "Inter", sans-serif;
+}
+
+.ad-img {
+  width: 13rem;
+  object-fit: cover;
 }
