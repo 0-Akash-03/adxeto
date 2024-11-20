@@ -97,3 +97,61 @@
   width: 13rem;
   object-fit: cover;
 }
+
+
+/* Responsive design */
+
+@media (max-width: 56.3rem) {
+  .heading-clients-flex {
+    flex-direction: column;
+  }
+
+  .head-section {
+    flex: 1;
+    text-align: center;
+    margin: 1rem auto 3rem auto;
+  }
+
+  .first-par {
+    text-align: left;
+  }
+
+  .small-line,
+  .big-line {
+    align-items: center;
+  }
+
+  .client-flex {
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 33.8rem) {
+  .client-flex {
+    width: 90%;
+  }
+}
+
+@media (max-width: 28.6rem) {
+  .head-section {
+    margin-left: 1.5rem;
+    text-align: left;
+  }
+
+  .client-heading {
+    line-height: 3rem; 
+    margin-bottom: 0;
+  }
+
+  .bycycle-flex,
+  .directiq-flex {
+    flex-direction: column;
+  }
+
+  .client-flex {
+    row-gap: 1.7rem;
+    width: 85%;
+  }
+}
