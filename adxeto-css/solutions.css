@@ -38,13 +38,18 @@
 
 .note-2 {
   position: absolute;
-  right: 70%;
-  top: 50rem;
+  right: 67.5%;
+  top: 47rem;
+  width: 18.4rem;
+}
+
+.arrow-note-2 img {
+  width: 8rem;
 }
 
 .arrow-note-2 {
   position: absolute;
-  left: 15rem;
+  left: 18rem;
   top: 52rem;
   opacity: calc(0.6);
 }
@@ -215,7 +220,17 @@
 
 @media (max-width: 83.75rem) {
   .note-2 {
-    width: 20rem;
+    top: 50rem;
+  }
+
+  .arrow-note-2 img {
+    width: 10rem;
+  }
+
+  .arrow-note-2 {
+    left: 16.5rem;
+    top: 51.5rem;
+    opacity: calc(0.6);
   }
 }
 

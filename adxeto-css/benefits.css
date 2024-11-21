@@ -167,6 +167,11 @@
   display: none;
 }
 
+.call-btn-benefit {
+ text-align: center; 
+ margin-top: 2.3rem;
+}
+
 /* Responsive design */
 
 @media (max-width: 68rem) {
@@ -253,6 +258,12 @@
     flex-direction: column;
     row-gap: 2.3rem;
     margin-left: 0;
+    background-color: var(--color-gray-100);
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px rgba(107, 107, 219, 0.3);
   }
 
   .box-des-one,
@@ -261,6 +272,7 @@
   .box-des-four,
   .box-des-five {
     width: 25rem;
+    margin: 0;
   }
 }
 
@@ -279,18 +291,25 @@
   .box-four,
   .box-five {
     width: 16rem;
-    height: 3.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .box-des-one,
+  .box-des-two,
+  .box-des-three,
+  .box-des-four,
+  .box-des-five {
+    width: 12rem;
   }
 
+  .box-one,
+  .box-two,
+  .box-three,
+  .box-four,
   .box-five {
-    margin-top: 2rem;
-  }
-
-  .box-four {
-    margin-top: 1rem;
-  }
-
-  .box-three {
-    margin-top: 1rem
+    width: 12rem;
+    height: 2.7rem;
   }
 }
